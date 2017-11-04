@@ -1,13 +1,12 @@
-## react-redux-template-for-ecommerce-site
+## @thrift-shop/site
 
-A beautiful e-commerce template with flat design.
+A beautiful e-commerce template for the Thrift Shop project.
 
 ## Installation
 
-*  Install yarn globally by `npm install yarn -g`
-*  `yarn install`
-*  `yarn start`
+Project requires node 8 and npm 5
+
+*  `npm install`
+*  `npm start`
 
 Open `localhost:8080` to open the app!
-
-Demo - https://ecommerce-template.now.sh/
