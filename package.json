@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-template-for-ecommerce-site",
+  "name": "@thrift-shop/site",
   "version": "0.1.0",
   "description": "A beautiful e-commerce template with a flat design.",
   "engines": {
@@ -19,7 +19,7 @@
     "remove-dist": "rimraf ./dist",
     "prebuild": "npm run clean-dist && npm run lint && npm run test",
     "build": "babel-node tools/build.js && npm run open:dist",
-    "test": "node --harmony_proxies node_modules/jest/bin/jest",
+    "test": "node --harmony node_modules/jest/bin/jest",
     "test:cover": "npm run test -- --coverage ",
     "test:cover:travis": "npm run test:cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "test:watch": "npm run test -- --watch",
@@ -97,7 +97,15 @@
     "webpack-hot-middleware": "2.13.2",
     "webpack-md5-hash": "0.0.5"
   },
-  "keywords": ["react", "redux", "ecommerce", "Arshad Khan", "react-slingshot", "express", "node"],
+  "keywords": [
+    "react",
+    "redux",
+    "ecommerce",
+    "Arshad Khan",
+    "react-slingshot",
+    "express",
+    "node"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/arshdkhn1/react-redux-template-for-ecommerce-site.git"
